@@ -18,6 +18,9 @@ For every step included in this guide, the corresponding G-code is also provided
 
 # Example of using this cheat sheet
 Using this cheat sheet with Nivea Creme allowed me to use it as a printing material and print a slightly modified 3DBenchy with it. The gcode for this is available for those daring enough.
+
 <img width="591" height="522" alt="image" src="https://github.com/user-attachments/assets/80e9b67f-67eb-4065-b6fa-66760b4dc391" />
+
+
 
 <img width="797" height="380" alt="image" src="https://github.com/user-attachments/assets/2c275ade-901c-4813-9111-20c72c4bc576" />
