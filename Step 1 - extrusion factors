@@ -1,0 +1,44 @@
+;------- Start Code -------;
+M201 X500.00 Y500.00 Z100.00 E5000.00
+M203 X500.00 Y500.00 Z10.00 E50.00
+M204 P500.00 R1000.00 T500.00
+M205 X1.00 Y1.00 Z0.10 E0.01
+M220 S100
+M221 S100
+
+G28 X ;homing
+G28 Y
+G28 Z
+G1 Z15.0 F6000
+
+M83 ;relative extrusion mode
+
+;------- Start Code -------;
+
+G1 X131 Y24 F3000
+G1 X131 Y42 Z5 E35 F120  ; Z height to be adapted
+G1 X131 Y142 E160 F60
+G1 X120 Y142 F3000
+G1 X120 Y42 E140 F60
+G1 X109 Y42 F3000
+G1 X109 Y142 E120 F60
+G1 X98 Y142 F3000
+G1 X98 Y42 E100 F60
+G1 X87 Y42 F3000
+G1 X87 Y142 E80 F60
+G1 X76 Y142 F3000
+G1 X76 Y42 E60 F60
+G1 X65 Y42 F3000
+G1 X65 Y142 E40 F60
+
+
+;------- End Code -------;
+G1 Z20.0 F6000
+G1 X0 Y220 F6000
+G90
+
+; Keep Z stepper energized indefinitely
+M17 Z           ; make sure Z is enabled right now
+M84 X Y E       ; release X, Y, and Extruder only (Z stays on)
+M84 S0          ; never timeout steppers (prevents any auto-disable)
+;------- End Code -------;
