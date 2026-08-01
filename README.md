@@ -14,3 +14,10 @@ This setup is for a modified ender 3 V2 with a syringe extrusion system but shou
 To get the most value from this cheat sheet, please take a moment to read the extended instructions. They provide important context, explain the workflow, and outline how each section is intended to be used for the best results.
 
 For every step included in this guide, the corresponding G-code is also provided, allowing you to easily follow along and apply the settings directly. Use the cheat sheet as a quick reference, and the extended instructions as your complete guide for understanding the process from start to finish.
+
+
+# Example of using this cheat sheet
+Using this cheat sheet with Nivea Creme allowed me to use it as a printing material and print a slightly modified 3DBenchy with it. The gcode for this is available for those daring enough.
+<img width="591" height="522" alt="image" src="https://github.com/user-attachments/assets/80e9b67f-67eb-4065-b6fa-66760b4dc391" />
+
+<img width="797" height="380" alt="image" src="https://github.com/user-attachments/assets/2c275ade-901c-4813-9111-20c72c4bc576" />
